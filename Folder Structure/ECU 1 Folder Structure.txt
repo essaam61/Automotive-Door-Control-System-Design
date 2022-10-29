@@ -1,0 +1,42 @@
+COTS/
+├─ Application/
+│  ├─ inc/
+│  │  ├─ CAN_TP.h
+│  ├─ main.c
+│  ├─ CAN_TP.c
+├─ Service/
+│  ├─ inc/
+│  │  ├─ os.h
+│  │  ├─ bcm.h
+│  ├─ os.c
+│  ├─ bcm.c
+├─ HAL/
+│  ├─ inc/
+│  │  ├─ doorsensor.h
+│  │  ├─ lightswitch.h
+│  │  ├─ speedsensor.h
+│  ├─ doorsensor.c
+│  ├─ lightswitch.c
+│  ├─ speedsensor.c
+├─ MCAL/
+│  ├─ inc/
+│  │  ├─ dio.h
+│  │  ├─ dio_types.h
+│  │  ├─ port.h
+│  │  ├─ port_types.h
+│  │  ├─ gpt.h
+│  │  ├─ gpt_ypes.h
+│  │  ├─ adc.h
+│  │  ├─ adc_types.h
+│  │  ├─ can.h
+│  │  ├─ can_types.h
+│  ├─ dio.c
+│  ├─ port.c
+│  ├─ gpt.c
+│  ├─ adc.c
+│  ├─ can.c
+├─ Common/
+│  ├─ STD_Types.h
+│  ├─ Common_Macros.h
+│  ├─ MCU_HW.h
+├─ Config/

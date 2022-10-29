@@ -1,0 +1,39 @@
+COTS/
+├─ Application/
+│  ├─ inc/
+│  │  ├─ Door_Control.h
+│  ├─ main.c
+│  ├─ Door_Control.c
+├─ Service/
+│  ├─ inc/
+│  │  ├─ os.h
+│  │  ├─ bcm.h
+│  ├─ os.c
+│  ├─ bcm.c
+├─ HAL/
+│  ├─ inc/
+│  │  ├─ rightlight.h
+│  │  ├─ leftlight.h
+│  │  ├─ buzzer.h
+│  ├─ rightlight.c
+│  ├─ leftlight.c
+│  ├─ buzzer.c
+├─ MCAL/
+│  ├─ inc/
+│  │  ├─ dio.h
+│  │  ├─ dio_types.h
+│  │  ├─ port.h
+│  │  ├─ port_types.h
+│  │  ├─ gpt.h
+│  │  ├─ gpt_ypes.h
+│  │  ├─ can.h
+│  │  ├─ can_types.h
+│  ├─ dio.c
+│  ├─ port.c
+│  ├─ gpt.c
+│  ├─ can.c
+├─ Common/
+│  ├─ STD_Types.h
+│  ├─ Common_Macros.h
+│  ├─ MCU_HW.h
+├─ Config/
